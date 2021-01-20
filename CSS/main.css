@@ -90,10 +90,9 @@ body {
     background: #FFEEDE;
     height: 1157px;
     width: 1177px;
-    position: absolute;
+    position: relative;
     overflow: hidden;
-    top: -600px;
-    left: 650px ;
+    top: -700px;
     border-radius: 50%;
     transition: 0.3px;
 }
@@ -110,18 +109,10 @@ body {
     width: 289px;
     height: 289px;
     position: relative;
-    margin-top: 330px;
-    margin-left: 360px;
+    top: -200px;
+    left: -20px;
 }
 
-.wheel__section__buttons {
-    width: 600px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    margin-top: 550px;
-    margin-left: -440px;
-}
 .spin__button {
     width: 46px;
     height: 46px;
@@ -160,4 +151,22 @@ body {
 @keyframes dishInfoScaling {
  from {transform: scale(0.4);}
  to {transform: scale(1);}
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+    position: relative;
+    left: 180px;
+    align-items: center;
+}
+
+.wheel__section__selected__dish {
+    display: flex;
+    position: absolute;
+    top: 550px;
+    width: 700px;
+    justify-content: space-between;
+
 }
