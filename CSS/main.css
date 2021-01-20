@@ -139,3 +139,25 @@ body {
     background-color: #54BF29;
 }
 
+.dish__animation {
+    animation-name: dishScaling;
+    animation-duration: 0.65s;
+    animation-fill-mode: both;
+}
+
+@keyframes dishScaling {
+     0% {transform: scale(1);}  
+     50% {transform: scale(0.5);} 
+     100% {transform: scale(1);
+        transform: rotate(36deg)}   
+}
+
+.dish__info__animation {
+    animation-name: dishInfoScaling;
+    animation-duration: 0.65s;
+    animation-fill-mode: both;
+}
+@keyframes dishInfoScaling {
+ from {transform: scale(0.4);}
+ to {transform: scale(1);}
+}
