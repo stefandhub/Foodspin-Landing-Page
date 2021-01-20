@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <title>Foodspin - Landing Page</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <div class="navbar">
+        <img class="navbar__foodspin__icon" src="/Images/foodspin__icon.svg" alt="site logo">
+        <div class="navbar__list">
+            <div>Breakfast</div>
+            <div>Lunch</div>
+            <div>Dinner</div>
+        </div>
+        <img class="navbar__chart__icon" src="/Images/chart__icon.svg" alt="icon to access the chart"></img>
+    </div>
+    <!--MAIN SECTION-->
+    <div class="main__section">
+        <div class="main__section__info">
+            <div class="dish__info">
+                <div class="dish__price">$32</div>
+                <div class="dish__name">Green Goddess <br>Chicken Salad</div>
+                <div class="dish__description">It is a non vegetarian salad which consists of the <br> green goddess dressing mixed with chicken, <br> peppers, olives and celery. </div>
+                <button class="order__button"> ORDER NOW</button>
+            </div>
+            <div class="dish__info display__modifier">
+                <div id="colorPicker" class="dish__price color__modifier">$35</div>
+                <div class="dish__name">Asian Cucumber <br> Salad</div>
+                <div class="dish__description">Asian Cucumber Salad Recipe made with crunchy <br> cucumber, onion, rice wine vinegar, and a few <br> secret ingredients!</div>
+                <button class="order__button button__modifier"> ORDER NOW</button>
+            </div>
+            <div class="dish__info display__modifier">
+                <div class="dish__price">$32</div>
+                <div class="dish__name">Green Goddess <br>Chicken Salad</div>
+                <div class="dish__description">It is a non vegetarian salad which consists of the <br> green goddess dressing mixed with chicken, <br> peppers, olives and celery. </div>
+                <button class="order__button"> ORDER NOW</button>
+            </div>
+            <div class="dish__info display__modifier ">
+                <div class="dish__price color__modifier">$30</div>
+                <div class="dish__name">Lorem ipsum dolor <br> sit amet</div>
+                <div class="dish__description">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod tempor incididunt ut labore <br> et dolore magna aliqua.</div>
+                <button class="order__button button__modifier"> ORDER NOW</button>
+            </div>
+            <div class="dish__info display__modifier">
+                <div class="dish__price">$33</div>
+                <div class="dish__name">Lorem ipsum dolor <br> sit amet</div>
+                <div class="dish__description">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod tempor incididunt ut labore <br> et dolore magna aliqua.</div>  
+                <button class="order__button"> ORDER NOW</button>
+            </div>
+            
+        </div>
+        <div class="wheel__section">
+            <img id="wheel" src="/Images/dish__spin.jpg" alt="">
+        </div>
+        <div class="wheel__section__selected__dish">
+            <img class="dish__image " src="/Images/dish__1.png" alt="">
+            <img class="dish__image display__modifier" src="/Images/dish__2.png" alt="">
+            <img class="dish__image display__modifier" src="/Images/dish__3.png" alt="">
+            <img class="dish__image display__modifier additional__image" src="/Images/dish__4.png" alt="">
+            <img class="dish__image display__modifier additional__image" src="/Images/dish__5.png" alt="">
+        </div>
+        <div class="wheel__section__buttons">
+            <button class="spin__button" id="left__button" ><img  src="/Images/spin__button.svg" alt=""></button>
+            <button class="spin__button" id="right__button" ><img  src="/Images/spin__button.svg" alt=""></button>
+        </div>
+</div>
+<script src="/JS/main.js"></script>
+</body>
+</html>
