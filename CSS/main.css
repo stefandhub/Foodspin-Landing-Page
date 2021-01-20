@@ -110,7 +110,7 @@ body {
     height: 289px;
     position: relative;
     top: -200px;
-    left: -20px;
+    
 }
 
 .spin__button {
@@ -166,6 +166,7 @@ body {
     display: flex;
     position: absolute;
     top: 550px;
+    left: 10px;
     width: 700px;
     justify-content: space-between;
 
