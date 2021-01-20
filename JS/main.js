@@ -32,9 +32,9 @@ function changeDishImageForward() {
     } 
     for (let index = 0; index < selectedDish.length; index++) {
         selectedDish[index].classList.add("display__modifier");
-        selectedDish[index].classList.add("animation");
+        selectedDish[index].classList.add("dish__animation");
         dishInfo[index].classList.add("display__modifier");
-        dishInfo[index].classList.add("animation");
+        dishInfo[index].classList.add("dish__info__animation");
     }
     //changes color of circle DA SISTEMARE
     for (let index = 0; index <= 4; index++) {
